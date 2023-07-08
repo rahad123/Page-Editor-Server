@@ -1,4 +1,4 @@
-import mongooses, { Document, Schema, Model } from "mongoose";
+import mongooses, { Schema, } from "mongoose";
 import { mongoose } from "../db/db";
 
 const pageEditorSchema = new Schema(

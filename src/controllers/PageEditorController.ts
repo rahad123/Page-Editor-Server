@@ -1,4 +1,4 @@
-import { Application, Request, Response } from "express";
+import { Request, Response } from "express";
 import { pageEditorService } from "../services/PageEditorService";
 const editor = {
   createPageEditor: async (req: Request, res: Response) => {
